@@ -8,7 +8,7 @@ function Footer() {
             <section className="social-media">
                 <div className="socialmedia-wrap">
                     <div className="footer-logo">
-                        <Link to='/' className="social-logo">Arctech3D</Link>
+                        <Link to='/' className="social-logo">Arktech 3D</Link>
                     </div>
                     <div className="social-icons">
                         <Link className="social-icon-link-instagram" to="/" target="_blank" aria-label="Instagram">
