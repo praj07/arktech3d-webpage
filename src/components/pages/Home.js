@@ -1,7 +1,7 @@
 import '../../App.css'
-import Cards from '../Cards'
-import Footer from '../Footer'
-import Herosection from '../HeroSection'
+import Cards from '../Cards/Cards'
+import Footer from '../Footer/Footer'
+import Herosection from '../HeroSection/HeroSection'
 
 function Home() {
     return(
