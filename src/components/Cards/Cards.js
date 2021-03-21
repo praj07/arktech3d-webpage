@@ -21,7 +21,7 @@ function Cards() {
                             <CardItem 
                             src= {product.pictureUrls}
                             text= {product.description}
-                            label= 'Product'
+                            price= {`$ ${product.price}`}
                             path= {`/products/${product.productId}`}/> : <br></br>
 
                     ))}
@@ -33,7 +33,7 @@ function Cards() {
                             <CardItem 
                             src= {product.pictureUrls}
                             text= {product.description}
-                            label= 'Product'
+                            price= {`$ ${product.price}`}
                             path={`/products/${product.productId}`}/> : <br></br>
 
                     ))}

@@ -21,12 +21,12 @@
   .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    padding: 100px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 3rem;
     display: flex;
-    align-items: center;
+    width: 500px;
   }
   
   .fa-typo3 {
@@ -40,7 +40,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 60vw;
+    width: 50vw;
     justify-content: end;
     margin-right: 2rem;
   }
@@ -56,6 +56,9 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-size: 2rem;
+    font-family: 'abel';
+    left: 100px;
   }
   
   .nav-links:hover {
@@ -74,6 +77,7 @@
   .menu-icon {
     display: none;
   }
+  
   
   @media screen and (max-width: 960px) {
     .NavbarItems {
