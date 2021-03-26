@@ -5,7 +5,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-3.mp4' autoPlay loop muted />
+      <video src='https://arktech-products.s3.amazonaws.com/LOB+Timelapse' autoPlay loop muted />
       <h1>Build your imagination</h1>
       <p>What are you waiting for?</p>
     </div>
